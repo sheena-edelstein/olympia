@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #cceaff; /* azul claro do fundo */
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .titulo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #003366; /* azul escuro */
+  }
+  
+  .titulo span {
+    color: #f4c542; /* amarelo dourado */
+  }
+  
+  .slogan {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #6b4f1d; /* tom dourado/marrom */
+    font-style: italic;
+    margin-bottom: 30px;
+  }
+  
+  .botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .botao {
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .botao:hover {
+    background-color: #001f4d;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+.subtitulo {
+    font-size: 1.4rem;
+    font-family: 'Georgia', serif;
+    margin-bottom: 20px;
+    color: #003366;
+    letter-spacing: 1px;
+  }
+  
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .formulario input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    background-color: white;
+  }
+  
+  .links {
+    font-size: 0.85rem;
+    text-align: center;
+    color: #6b4f1d;
+    margin-top: -5px;
+    margin-bottom: 10px;
+  }
+  
+  .links a {
+    color: #ab8508;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  
+  .botao-amarelo {
+    background-color: #003366;
+    color: #ab8508;
+    width: 60%;
+  }
+  
